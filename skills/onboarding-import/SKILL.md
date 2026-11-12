@@ -64,8 +64,9 @@ Use this skill for everything else, or when they want to start with a few classe
 ## What not to do
 
 - Do not publish a class the person has not seen as it will appear.
-- Do not create venues, classes or series that `list_my_venues` or `list_classes` already show; offer to
-  update them instead (`update_class`, `update_series`).
+- Do not create venues, classes or series that `list_my_venues` or `list_classes` already show; reuse them as
+  they are. Do not propose changes to an existing venue or class (its setting, its name, its texts) unless the
+  person asks: the import adds what is missing and leaves the rest alone.
 - Do not set a booking method the person did not confirm: `native` makes a class bookable and paid on Student
   Body, which has consequences they must choose.
 - Do not import students, bookings or payments: the connector has no tools for them by design.
