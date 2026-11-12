@@ -1,0 +1,11 @@
+{
+  "name": "studentbody",
+  "displayName": "Student Body",
+  "version": "0.1.0",
+  "description": "Run your classes on Student Body from Claude: a monthly review of your Insights, schedule changes shown before they are saved, help from the published guides, and importing a timetable as classes and series. Pairs with the Student Body connector.",
+  "author": { "name": "Student Body", "url": "https://www.studentbody.pt" },
+  "homepage": "https://www.studentbody.pt/en/connect",
+  "repository": "https://github.com/studentbody-lda/studentbody-claude-plugin",
+  "license": "MIT",
+  "keywords": ["student body", "movement classes", "yoga", "pilates", "studio", "schedule", "insights", "portugal"]
+}

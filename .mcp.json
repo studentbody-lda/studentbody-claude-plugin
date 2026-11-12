@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "studentbody": {
+      "type": "http",
+      "url": "https://mcp.studentbody.pt"
+    }
+  }
+}
