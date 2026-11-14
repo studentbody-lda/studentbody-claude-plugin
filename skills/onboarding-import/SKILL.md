@@ -21,7 +21,8 @@ Use this skill for everything else, or when they want to start with a few classe
    capability imports the studio's: pass `studio` to `create_venue`, `create_class_draft` and `create_series`
    (the other writes scope through the class or session id). Then `list_my_venues` and `list_classes`
    so you never create a venue or class that already exists; `list_classes` also shows the class type keys
-   already in use.
+   already in use. For a teacher, `get_setup_checklist` shows where they are on the console's "Get set up"
+   checklist (bio, classes, publish, schedule, go live); the import covers the middle three.
 2. **Read the source.** Extract every distinct class with: name, weekday(s), start and end time, venue,
    teacher (studio imports), duration, level if stated, price if stated, how students book today. Resolve
    patterns: "every other Saturday" is `biweekly`; "first Sunday of the month" is `nth_weekday` with
@@ -45,9 +46,11 @@ Use this skill for everything else, or when they want to start with a few classe
 6. **Publish what is complete.** For each draft, call `publish_class` without extra fields first; it refuses
    with a labelled list when something is missing. Fill what you can from the source and ask for the rest.
    Report which classes are live and which stay as drafts, and why.
-7. **Hand over.** Say what to do next in the console: photos (not handled by the connector), the profile
-   or studio description (offer to draft it under the copy guidelines, `studentbody://guidelines/copy`),
-   and the Payments settings for classes that book on Student Body.
+7. **Hand over.** For a teacher, call `get_setup_checklist` again and say what is left, step by step, with
+   its console link. A missing bio you can draft (`update_my_profile`, under the copy guidelines,
+   `studentbody://guidelines/copy`); a studio's description the same way (`update_studio`). Photos, the
+   Payments settings for classes that book on Student Body, and going live are the console's: going live is
+   the person's own switch, so never say it is done until the checklist shows it.
 
 ## Mapping rules
 
