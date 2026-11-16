@@ -523,8 +523,7 @@ If Stripe pauses your account, the card will say so. Select "Fix it on Stripe" t
 ### How students pay
 
 Students can pay by card, with a card saved to their Student Body account, or with Apple Pay or Google
-Pay on the web. MB WAY is offered when it's turned on in your Stripe account, except in the Android
-app.
+Pay on the web. MB WAY is offered when it's turned on in your Stripe account.
 
 ## 15. Class packs, memberships, and discount codes [Booking here]
 

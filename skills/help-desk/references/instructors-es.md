@@ -547,8 +547,7 @@ hace falta.
 ### Cómo pagan los alumnos
 
 Los alumnos pueden pagar con tarjeta, con una tarjeta guardada en su cuenta de Student Body, o con
-Apple Pay o Google Pay en la web. MB WAY se ofrece cuando está activado en tu cuenta de Stripe,
-excepto en la app de Android.
+Apple Pay o Google Pay en la web. MB WAY se ofrece cuando está activado en tu cuenta de Stripe.
 
 ## 15. Packs de clases, membresías y códigos de descuento [Reservas aquí]
 
